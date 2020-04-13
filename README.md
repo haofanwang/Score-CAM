@@ -1,7 +1,7 @@
 # Official implementation for Score-CAM
 
 ## Update
-**`2019.4.13`**: First version of Score-CAM code has been released. More implementations will be added later.
+**`2020.4.13`**: First version of Score-CAM code has been released. More implementations will be added later.
 
 ## Milestone
 * Support for Colab notebook.
