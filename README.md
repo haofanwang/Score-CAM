@@ -1,4 +1,4 @@
-### Score-CAM: Score-Weighted Visual Explanations for Convolutional Neural Networks
+## Score-CAM: Score-Weighted Visual Explanations for Convolutional Neural Networks
 To appear at IEEE CVPR 2020 Workshop on Fair, Data Efficient and Trusted Computer Vision.
 
 <img src="https://github.com/haofanwang/Score-CAM/blob/master/pics/comparison.png" width="100%" height="100%">
