@@ -1,6 +1,29 @@
 # Official implementation for Score-CAM
 
-**`2019.4.13`**: Final code is not ready, will be added soon.
+**`2019.4.13`**: First version of Score-CAM code has been released. More implementations will be added later.
+
+## Other implementations
+Before we release the official code, some great researchers have implemented Score-CAM on different framework. 
+I am very grateful for the efforts made in their implementation.
+
+Pytorch:
+
+[torch-cam](https://github.com/frgfm/torch-cam) by @frgfm
+
+[ScoreCAM](https://github.com/yiskw713/ScoreCAM) by @yiskw713
+
+Tensorflow:
+
+[score-cam](https://github.com/matheushent/score-cam) by @matheushent
+
+Keras:
+
+[scam-net](https://github.com/andreysorokin/scam-net) by @andreysorokin
+
+[Score-CAM](https://github.com/tabayashi0117/Score-CAM) by @tabayashi0117
+
+[Score-CAM-VGG16](https://github.com/bunbunjp/Score-CAM-VGG16) by @bunbunjp
+
 
 ## Citation
 If you find this work or code is helpful in your research, please cite:
