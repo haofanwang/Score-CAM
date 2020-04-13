@@ -13,6 +13,7 @@
 ## Implement Score-CAM into popular visualization tools.
 It would be very appreciated for implementing Score-CAM for other popular projects, if any of you are interested.
 * Implement in [pytorch/captum](https://github.com/pytorch/captum)
+* Implement in [sicara/tf-explain](https://github.com/sicara/tf-explain)
 * Implement in [PAIR-code/saliency](https://github.com/PAIR-code/saliency)
 * Implement in [utkuozbulak/pytorch-cnn-visualizations](https://github.com/utkuozbulak/pytorch-cnn-visualizations)
 
@@ -40,6 +41,13 @@ I am very grateful for the efforts made in their implementation.
 
 [Score-CAM-VGG16](https://github.com/bunbunjp/Score-CAM-VGG16) by @bunbunjp
 
+## Blog post
+
+[Demystifying Convolutional Neural Networks using ScoreCam](https://towardsdatascience.com/demystifying-convolutional-neural-networks-using-scorecam-344a0456c48e)
+
+[kerasでScore-CAM実装．Grad-CAMとの比較](https://qiita.com/futakuchi0117/items/95c518254185ec5ea485)
+
+[paper_summary](https://github.com/yiskw713/paper_summary/issues/98)
 
 ## Citation
 If you find this work or code is helpful in your research, please cite:
