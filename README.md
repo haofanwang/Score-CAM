@@ -1,4 +1,8 @@
-# Official implementation for Score-CAM
+### Score-CAM: Score-Weighted Visual Explanations for Convolutional Neural Networks
+
+Recently, increasing attention has been drawn to the internal mechanisms of convolutional neural networks, and the reason why the network makes specific decisions. In this paper, we develop a novel post-hoc visual explanation method called Score-CAM based on class activation mapping. Unlike previous class activation mapping based approaches, Score-CAM gets rid of the dependence on gradients by obtaining the weight of each activation map through its forward passing score on target class, the final result is obtained by a linear combination of weights and activation maps. We demonstrate that Score-CAM achieves better visual performance and fairness for interpreting the decision making process. Our approach outperforms previous methods on both recognition and localization tasks, it also passes the sanity check. We also indicate its application as debugging tools.
+
+Paper: [Score-CAM: Score-Weighted Visual Explanations for Convolutional Neural Networks](https://haofanwang.github.io/documents/Score-CAM.pdf)
 
 ## Update
 **`2020.4.13`**: First version of Score-CAM code has been released. More implementations will be added later.
