@@ -16,6 +16,7 @@ It would be very appreciated for implementing Score-CAM for other popular projec
 * Implement in [pytorch/captum](https://github.com/pytorch/captum)
 * Implement in [sicara/tf-explain](https://github.com/sicara/tf-explain)
 * Implement in [PAIR-code/saliency](https://github.com/PAIR-code/saliency)
+* Implement in [experiencor/deep-viz-keras](https://github.com/experiencor/deep-viz-keras)
 * Implement in [utkuozbulak/pytorch-cnn-visualizations](https://github.com/utkuozbulak/pytorch-cnn-visualizations)
 
 ## Other implementations
