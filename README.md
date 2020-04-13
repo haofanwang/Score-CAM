@@ -9,6 +9,7 @@
 * Support for pre-trained model in Pytorch.
 * Support for self-defined model in Pytorch.
 * Add visualization result and quantitive evaluation.
+* Support for object localization task.
 
 ## Implement Score-CAM into popular visualization tools.
 It would be very appreciated for implementing Score-CAM for other popular projects, if any of you are interested.
