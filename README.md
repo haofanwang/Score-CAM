@@ -45,11 +45,11 @@ I am very grateful for the efforts made in their implementation.
 
 ## Blog post
 
+[paper_summary](https://github.com/yiskw713/paper_summary/issues/98)
+
 [Demystifying Convolutional Neural Networks using ScoreCam](https://towardsdatascience.com/demystifying-convolutional-neural-networks-using-scorecam-344a0456c48e)
 
 [kerasでScore-CAM実装．Grad-CAMとの比較](https://qiita.com/futakuchi0117/items/95c518254185ec5ea485)
-
-[paper_summary](https://github.com/yiskw713/paper_summary/issues/98)
 
 ## Citation
 If you find this work or code is helpful in your research, please cite and star:
@@ -63,4 +63,4 @@ If you find this work or code is helpful in your research, please cite and star:
 ```
 
 ## Contact
-If you have any questions, feel free to E-mail me via: `haofanw@andrew.cmu.edu`
+If you have any questions, feel free to contact me via: `haofanw@andrew.cmu.edu`
