@@ -2,7 +2,7 @@
 
 Recently, increasing attention has been drawn to the internal mechanisms of convolutional neural networks, and the reason why the network makes specific decisions. In this paper, we develop a novel post-hoc visual explanation method called Score-CAM based on class activation mapping. Unlike previous class activation mapping based approaches, Score-CAM gets rid of the dependence on gradients by obtaining the weight of each activation map through its forward passing score on target class, the final result is obtained by a linear combination of weights and activation maps. We demonstrate that Score-CAM achieves better visual performance and fairness for interpreting the decision making process. Our approach outperforms previous methods on both recognition and localization tasks, it also passes the sanity check. We also indicate its application as debugging tools.
 
-Paper: [Score-CAM: Score-Weighted Visual Explanations for Convolutional Neural Networks](https://haofanwang.github.io/documents/Score-CAM.pdf)
+Paper: [Score-CAM: Score-Weighted Visual Explanations for Convolutional Neural Networks](https://haofanwang.github.io/documents/Score-CAM.pdf) to appear at IEEE CVPR 2020 Workshop on Fair, Data Efficient and Trusted Computer Vision.
 
 ## Update
 **`2020.4.13`**: First version of Score-CAM code has been released. More implementations will be added later.
@@ -29,23 +29,23 @@ I am very grateful for the efforts made in their implementation.
 
 ### Pytorch:
 
-[torch-cam](https://github.com/frgfm/torch-cam) by @frgfm
+[torch-cam](https://github.com/frgfm/torch-cam) by [frgfm](https://github.com/frgfm)
 
-[ScoreCAM](https://github.com/yiskw713/ScoreCAM) by @yiskw713
+[ScoreCAM](https://github.com/yiskw713/ScoreCAM) by [yiskw713](https://github.com/yiskw713)
 
-[xdeep](https://github.com/datamllab/xdeep) by datamllab
+[xdeep](https://github.com/datamllab/xdeep) by [datamllab](https://github.com/datamllab)
 
 ### Tensorflow:
 
-[score-cam](https://github.com/matheushent/score-cam) by @matheushent
+[score-cam](https://github.com/matheushent/score-cam) by [matheushent](https://github.com/matheushent)
 
 ### Keras:
 
-[scam-net](https://github.com/andreysorokin/scam-net) by @andreysorokin
+[scam-net](https://github.com/andreysorokin/scam-net) by [andreysorokin](https://github.com/andreysorokin)
 
-[Score-CAM](https://github.com/tabayashi0117/Score-CAM) by @tabayashi0117
+[Score-CAM](https://github.com/tabayashi0117/Score-CAM) by [tabayashi0117](https://github.com/tabayashi0117)
 
-[Score-CAM-VGG16](https://github.com/bunbunjp/Score-CAM-VGG16) by @bunbunjp
+[Score-CAM-VGG16](https://github.com/bunbunjp/Score-CAM-VGG16) by [bunbunjp](https://github.com/bunbunjp)
 
 ## Blog post
 
