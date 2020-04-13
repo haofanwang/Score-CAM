@@ -1,9 +1,9 @@
 ### Score-CAM: Score-Weighted Visual Explanations for Convolutional Neural Networks
 To appear at IEEE CVPR 2020 Workshop on Fair, Data Efficient and Trusted Computer Vision.
 
-<img src="https://github.com/haofanwang/Score-CAM/blob/master/pics/pipeline.png" width="80%" height="80%">
+<img src="https://github.com/haofanwang/Score-CAM/blob/master/pics/comparison.png" width="100%" height="100%">
 
-In this paper, we develop a novel post-hoc visual explanation method called Score-CAM based on class activation mapping. Unlike previous class activation mapping based approaches, Score-CAM gets rid of the dependence on gradients by obtaining the weight of each activation map through its forward passing score on target class, the final result is obtained by a linear combination of weights and activation maps. We demonstrate that Score-CAM achieves better visual performance and fairness for interpreting the decision making process. Our approach outperforms previous methods on both recognition and localization tasks, it also passes the sanity check. We also indicate its application as debugging tools.
+In this paper, we develop a novel post-hoc visual explanation method called Score-CAM based on class activation mapping. Score-CAM is a gradient-free visualization method, extended from Grad-CAM and Grad-CAM++. It achieves better visual performance and fairness for interpreting the decision making process. 
 
 Paper: [Score-CAM: Score-Weighted Visual Explanations for Convolutional Neural Networks](https://haofanwang.github.io/documents/Score-CAM.pdf)
 
@@ -16,7 +16,7 @@ Paper: [Score-CAM: Score-Weighted Visual Explanations for Convolutional Neural N
 * Support for pre-trained model in Pytorch.
 * Support for self-defined model in Pytorch.
 * Add visualization result and quantitive evaluation.
-* Support for object localization task.
+* Support for other tasks such as object localization task.
 
 ## Implement Score-CAM into popular visualization tools.
 It would be very appreciated for implementing Score-CAM for other popular projects, if any of you are interested.
@@ -69,11 +69,11 @@ If you find this work or code is helpful in your research, please cite and star:
 }
 
 @article{yang2019xdeep,
-             title={XDeep: An Interpretation Tool for Deep Neural Networks},
-             author={Yang, Fan and Zhang, Zijian and Wang, Haofan and Li, Yuening and Hu, Xia},
-             journal={arXiv preprint arXiv:1911.01005},
-             year={2019}
-            }
+   title={XDeep: An Interpretation Tool for Deep Neural Networks},
+   author={Yang, Fan and Zhang, Zijian and Wang, Haofan and Li, Yuening and Hu, Xia},
+   journal={arXiv preprint arXiv:1911.01005},
+   year={2019}
+}
 ```
 
 ## Thanks
