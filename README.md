@@ -62,5 +62,8 @@ If you find this work or code is helpful in your research, please cite and star:
 }
 ```
 
+## Thanks
+Utils are built on [flashtorch](https://github.com/MisaOgura/flashtorch), thanks for releasing this great work!
+
 ## Contact
 If you have any questions, feel free to contact me via: `haofanw@andrew.cmu.edu`
