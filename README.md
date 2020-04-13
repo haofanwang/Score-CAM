@@ -52,7 +52,7 @@ I am very grateful for the efforts made in their implementation.
 [paper_summary](https://github.com/yiskw713/paper_summary/issues/98)
 
 ## Citation
-If you find this work or code is helpful in your research, please cite:
+If you find this work or code is helpful in your research, please cite and star:
 ```
 @article{wang2019score,
   title={Score-CAM: Improved Visual Explanations Via Score-Weighted Class Activation Mapping},
