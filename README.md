@@ -64,7 +64,7 @@ If you find this work or code is helpful in your research, please cite and star:
 @article{wang2019scorecam,
   title={Score-CAM: Score-Weighted Visual Explanations for Convolutional Neural Networks},
   author={Wang, Haofan and Wang, Zifan and Du, Mengnan and Yang, Fan and Zhang, Zijian and Ding, Sirui and Mardziel, Piotr and Hu, Xia},
-  journal={arXiv preprint arXiv:1910.01279},
+  journal={arXiv preprint arXiv:1910.01279v2},
   year={2019}
 }
 ```
