@@ -61,9 +61,9 @@ I am very grateful for the efforts made in their implementation.
 ## Citation
 If you find this work or code is helpful in your research, please cite and star:
 ```
-@article{wang2019score,
-  title={Score-CAM: Improved Visual Explanations Via Score-Weighted Class Activation Mapping},
-  author={Wang, Haofan and Du, Mengnan and Yang, Fan and Zhang, Zijian},
+@article{wang2019scorecam,
+  title={Score-CAM: Score-Weighted Visual Explanations for Convolutional Neural Networks},
+  author={Wang, Haofan and Wang, Zifan and Du, Mengnan and Yang, Fan and Zhang, Zijian and Ding, Sirui and Mardziel, Piotr and Hu, Xia},
   journal={arXiv preprint arXiv:1910.01279},
   year={2019}
 }
