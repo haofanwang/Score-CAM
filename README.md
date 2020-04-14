@@ -67,13 +67,6 @@ If you find this work or code is helpful in your research, please cite and star:
   journal={arXiv preprint arXiv:1910.01279},
   year={2019}
 }
-
-@article{yang2019xdeep,
-   title={XDeep: An Interpretation Tool for Deep Neural Networks},
-   author={Yang, Fan and Zhang, Zijian and Wang, Haofan and Li, Yuening and Hu, Xia},
-   journal={arXiv preprint arXiv:1911.01005},
-   year={2019}
-}
 ```
 
 ## Thanks
