@@ -67,6 +67,13 @@ If you find this work or code is helpful in your research, please cite and star:
   journal={arXiv preprint arXiv:1910.01279v2},
   year={2019}
 }
+
+@article{wang2019score,
+  title={Score-CAM: Improved Visual Explanations Via Score-Weighted Class Activation Mapping},
+  author={Wang, Haofan and Du, Mengnan and Yang, Fan and Zhang, Zijian},
+  journal={arXiv preprint arXiv:1910.01279},
+  year={2019}
+}
 ```
 
 ## Thanks
