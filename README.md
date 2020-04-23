@@ -24,7 +24,7 @@ It would be very appreciated for implementing Score-CAM for other popular projec
 * - [ ] [issues #124](https://github.com/sicara/tf-explain/issues/124), Implement in [sicara/tf-explain](https://github.com/sicara/tf-explain)
 * - [ ] Implement in [PAIR-code/saliency](https://github.com/PAIR-code/saliency)
 * - [ ] Implement in [experiencor/deep-viz-keras](https://github.com/experiencor/deep-viz-keras)
-* - [ ] Implement in [utkuozbulak/pytorch-cnn-visualizations](https://github.com/utkuozbulak/pytorch-cnn-visualizations)
+* - [ ] [issues #76](https://github.com/utkuozbulak/pytorch-cnn-visualizations/issues/76), Implement in [utkuozbulak/pytorch-cnn-visualizations](https://github.com/utkuozbulak/pytorch-cnn-visualizations)
 
 ## Other implementations
 Before we release the official code, some great researchers have implemented Score-CAM on different framework. 
