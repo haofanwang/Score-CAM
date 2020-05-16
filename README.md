@@ -8,6 +8,8 @@ In this paper, we develop a novel post-hoc visual explanation method called Scor
 Paper: [Score-CAM: Score-Weighted Visual Explanations for Convolutional Neural Networks](https://arxiv.org/abs/1910.01279) (Haofan Wang, Zifan Wang, Mengnan Du, Fan Yang, Zijian Zhang, Sirui Ding, Piotr Mardziel and Xia Hu.)
 
 ## Update
+**`2020.5.11`**: Score-CAM has been merged into [utkuozbulak/pytorch-cnn-visualizations](https://github.com/utkuozbulak/pytorch-cnn-visualizations).
+
 **`2020.4.13`**: First version of Score-CAM code has been released. More implementations will be added later.
 
 ## Milestone
