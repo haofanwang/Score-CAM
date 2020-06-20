@@ -70,15 +70,6 @@ If you find this work or code is helpful in your research, please cite and star:
     month = {June},
     year = {2020}
 }
-
-@misc{wang2019scorecam,
-    title={Score-CAM: Score-Weighted Visual Explanations for Convolutional Neural Networks},
-    author={Haofan Wang and Zifan Wang and Mengnan Du and Fan Yang and Zijian Zhang and Sirui Ding and Piotr Mardziel and Xia Hu},
-    year={2019},
-    eprint={1910.01279},
-    archivePrefix={arXiv},
-    primaryClass={cs.CV}
-}
 ```
 
 ## Thanks
