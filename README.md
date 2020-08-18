@@ -11,6 +11,8 @@ Paper: [Score-CAM: Score-Weighted Visual Explanations for Convolutional Neural N
 
 **`2020.8.18`**: Score-CAM has been merged into [PaddlePaddle/InterpretDL](https://github.com/PaddlePaddle/InterpretDL).
 
+**`2020.7.11`**: Score-CAM has been merged into [keisen/tf-keras-vis](https://github.com/keisen/tf-keras-vis).
+
 **`2020.5.11`**: Score-CAM has been merged into [utkuozbulak/pytorch-cnn-visualizations](https://github.com/utkuozbulak/pytorch-cnn-visualizations).
 
 **`2020.3.24`**: Score-CAM has been merged into [frgfm/torch-cam](https://github.com/frgfm/torch-cam).
