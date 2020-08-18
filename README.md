@@ -8,16 +8,17 @@ In this paper, we develop a novel post-hoc visual explanation method called Scor
 Paper: [Score-CAM: Score-Weighted Visual Explanations for Convolutional Neural Networks](http://openaccess.thecvf.com/content_CVPRW_2020/papers/w1/Wang_Score-CAM_Score-Weighted_Visual_Explanations_for_Convolutional_Neural_Networks_CVPRW_2020_paper.pdf) (Haofan Wang, Zifan Wang, Mengnan Du, Fan Yang, Zijian Zhang, Sirui Ding, Piotr Mardziel and Xia Hu.)
 
 ## Update
+
+**`2020.8.18`**: Score-CAM has been merged into [PaddlePaddle/InterpretDL](https://github.com/PaddlePaddle/InterpretDL).
+
 **`2020.5.11`**: Score-CAM has been merged into [utkuozbulak/pytorch-cnn-visualizations](https://github.com/utkuozbulak/pytorch-cnn-visualizations).
 
-**`2020.4.13`**: First version of Score-CAM code has been released. More implementations will be added later.
+**`2020.3.24`**: Score-CAM has been merged into [frgfm/torch-cam](https://github.com/frgfm/torch-cam).
 
 ## Milestone
 * - [ ] Support for Colab notebook.
-* - [ ] Support for faster version of Score-CAM.
-* - [ ] Support for pre-trained model in Pytorch.
+* - [x] Support for pre-trained model in Pytorch.
 * - [ ] Support for self-defined model in Pytorch.
-* - [ ] Add visualization result and quantitive evaluation.
 * - [ ] Support for other tasks such as object localization task.
 
 ## Implement Score-CAM into popular visualization tools.
@@ -33,8 +34,6 @@ Before we release the official code, some great researchers have implemented Sco
 I am very grateful for the efforts made in their implementation.
 
 ### Pytorch:
-
-[torch-cam](https://github.com/frgfm/torch-cam) by [frgfm](https://github.com/frgfm)
 
 [ScoreCAM](https://github.com/yiskw713/ScoreCAM) by [yiskw713](https://github.com/yiskw713)
 
