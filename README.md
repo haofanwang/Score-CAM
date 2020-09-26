@@ -17,49 +17,6 @@ Paper: [Score-CAM: Score-Weighted Visual Explanations for Convolutional Neural N
 
 **`2020.3.24`**: Score-CAM has been merged into [frgfm/torch-cam](https://github.com/frgfm/torch-cam).
 
-## Milestone
-* - [ ] Support for Colab notebook.
-* - [x] Support for pre-trained model in Pytorch.
-* - [ ] Support for self-defined model in Pytorch.
-* - [ ] Support for other tasks such as object localization task.
-
-## Implement Score-CAM into popular visualization tools.
-It would be very appreciated for implementing Score-CAM for other popular projects, if any of you are interested.
-* - [x] [issues #76](https://github.com/utkuozbulak/pytorch-cnn-visualizations/issues/76), Implement in [utkuozbulak/pytorch-cnn-visualizations](https://github.com/utkuozbulak/pytorch-cnn-visualizations)
-* - [ ] [isses #350](https://github.com/pytorch/captum/issues/350), Implement in [pytorch/captum](https://github.com/pytorch/captum)
-* - [ ] [issues #124](https://github.com/sicara/tf-explain/issues/124), Implement in [sicara/tf-explain](https://github.com/sicara/tf-explain)
-* - [ ] Implement in [PAIR-code/saliency](https://github.com/PAIR-code/saliency)
-* - [ ] Implement in [experiencor/deep-viz-keras](https://github.com/experiencor/deep-viz-keras)
-
-## Other implementations
-Before we release the official code, some great researchers have implemented Score-CAM on different framework. 
-I am very grateful for the efforts made in their implementation.
-
-### Pytorch:
-
-[ScoreCAM](https://github.com/yiskw713/ScoreCAM) by [yiskw713](https://github.com/yiskw713)
-
-[xdeep](https://github.com/datamllab/xdeep) by [datamllab](https://github.com/datamllab)
-
-### Tensorflow:
-
-[score-cam](https://github.com/matheushent/score-cam) by [matheushent](https://github.com/matheushent)
-
-### Keras:
-
-[scam-net](https://github.com/andreysorokin/scam-net) by [andreysorokin](https://github.com/andreysorokin)
-
-[Score-CAM](https://github.com/tabayashi0117/Score-CAM) by [tabayashi0117](https://github.com/tabayashi0117)
-
-[Score-CAM-VGG16](https://github.com/bunbunjp/Score-CAM-VGG16) by [bunbunjp](https://github.com/bunbunjp)
-
-## Blog post
-
-[paper_summary](https://github.com/yiskw713/paper_summary/issues/98)
-
-[Demystifying Convolutional Neural Networks using ScoreCam](https://towardsdatascience.com/demystifying-convolutional-neural-networks-using-scorecam-344a0456c48e)
-
-[kerasでScore-CAM実装．Grad-CAMとの比較](https://qiita.com/futakuchi0117/items/95c518254185ec5ea485)
 
 ## Citation
 If you find this work or code is helpful in your research, please cite and star:
