@@ -27,6 +27,12 @@ class ImageNetIndex(Mapping):
     """
 
     def __init__(self):
+        """
+        Initialize the index.
+
+        Args:
+            self: (todo): write your description
+        """
         self._index = {}
 
         with path(resources, 'imagenet_class_index.json') as source_path:
@@ -38,12 +44,31 @@ class ImageNetIndex(Mapping):
             self._index[class_name] = int(index)
 
     def __len__(self):
+        """
+        Returns the number of rows in - place.
+
+        Args:
+            self: (todo): write your description
+        """
         return len(self._index)
 
     def __iter__(self):
+        """
+        Returns an iterator over the index.
+
+        Args:
+            self: (todo): write your description
+        """
         return iter(self._index)
 
     def __getitem__(self, phrase):
+        """
+        Return the item from phrase.
+
+        Args:
+            self: (todo): write your description
+            phrase: (todo): write your description
+        """
         if type(phrase) != str:
             raise TypeError('Target class needs to be a string.')
 
@@ -63,15 +88,41 @@ class ImageNetIndex(Mapping):
         return self._index[target_class]
 
     def __contains__(self, key):
+        """
+        Determine whether the given key contains a given key.
+
+        Args:
+            self: (todo): write your description
+            key: (todo): write your description
+        """
         return any(key in name for name in self._index)
 
     def keys(self):
+        """
+        Returns a list of all keys.
+
+        Args:
+            self: (todo): write your description
+        """
         return self._index.keys()
 
     def items(self):
+        """
+        Return an iterator over all items.
+
+        Args:
+            self: (todo): write your description
+        """
         return self._index.items()
 
     def _find_partial_matches(self, phrase):
+        """
+        Find matches bytestring.
+
+        Args:
+            self: (todo): write your description
+            phrase: (str): write your description
+        """
         words = phrase.lower().split(' ')
 
         # Find the intersection between search words and class names to

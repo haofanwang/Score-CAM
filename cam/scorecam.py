@@ -11,9 +11,25 @@ class ScoreCAM(BaseCAM):
     """
 
     def __init__(self, model_dict):
+        """
+        Initialize model_dict.
+
+        Args:
+            self: (todo): write your description
+            model_dict: (dict): write your description
+        """
         super().__init__(model_dict)
 
     def forward(self, input, class_idx=None, retain_graph=False):
+        """
+        Forward computation.
+
+        Args:
+            self: (todo): write your description
+            input: (todo): write your description
+            class_idx: (str): write your description
+            retain_graph: (bool): write your description
+        """
         b, c, h, w = input.size()
         
         # predication on raw input
@@ -76,4 +92,13 @@ class ScoreCAM(BaseCAM):
         return score_saliency_map
 
     def __call__(self, input, class_idx=None, retain_graph=False):
+        """
+        Call the model.
+
+        Args:
+            self: (todo): write your description
+            input: (array): write your description
+            class_idx: (str): write your description
+            retain_graph: (bool): write your description
+        """
         return self.forward(input, class_idx, retain_graph)
