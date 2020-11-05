@@ -16,6 +16,13 @@ class BaseCAM(object):
     """
 
     def __init__(self, model_dict):
+        """
+        Initialize the network.
+
+        Args:
+            self: (todo): write your description
+            model_dict: (dict): write your description
+        """
         model_type = model_dict['type']
         layer_name = model_dict['layer_name']
         
@@ -27,6 +34,14 @@ class BaseCAM(object):
         self.activations = dict()
 
         def backward_hook(module, grad_input, grad_output):
+            """
+            Backward backward backward hook.
+
+            Args:
+                module: (todo): write your description
+                grad_input: (todo): write your description
+                grad_output: (bool): write your description
+            """
             if torch.cuda.is_available():
               self.gradients['value'] = grad_output[0].cuda()
             else:
@@ -34,6 +49,14 @@ class BaseCAM(object):
             return None
 
         def forward_hook(module, input, output):
+            """
+            Parameters ---------- module.
+
+            Args:
+                module: (todo): write your description
+                input: (todo): write your description
+                output: (todo): write your description
+            """
             if torch.cuda.is_available():
               self.activations['value'] = output.cuda()
             else:
@@ -63,7 +86,25 @@ class BaseCAM(object):
         self.target_layer.register_backward_hook(backward_hook)
 
     def forward(self, input, class_idx=None, retain_graph=False):
+        """
+        Returns the forward graph.
+
+        Args:
+            self: (todo): write your description
+            input: (todo): write your description
+            class_idx: (str): write your description
+            retain_graph: (bool): write your description
+        """
         return None
 
     def __call__(self, input, class_idx=None, retain_graph=False):
+        """
+        Call the model.
+
+        Args:
+            self: (todo): write your description
+            input: (array): write your description
+            class_idx: (str): write your description
+            retain_graph: (bool): write your description
+        """
         return self.forward(input, class_idx, retain_graph)
