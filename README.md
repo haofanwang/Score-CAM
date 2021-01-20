@@ -7,6 +7,8 @@ In this paper, we develop a novel post-hoc visual explanation method called Scor
 
 Paper: [Score-CAM: Score-Weighted Visual Explanations for Convolutional Neural Networks](http://openaccess.thecvf.com/content_CVPRW_2020/papers/w1/Wang_Score-CAM_Score-Weighted_Visual_Explanations_for_Convolutional_Neural_Networks_CVPRW_2020_paper.pdf) (Haofan Wang, Zifan Wang, Mengnan Du, Fan Yang, Zijian Zhang, Sirui Ding, Piotr Mardziel and Xia Hu.)
 
+Demo [Colab](https://colab.research.google.com/drive/1m1VAhKaO7Jns5qt5igfd7lSVZudoKmID?usp=sharing)
+
 ## Update
 
 **`2020.8.18`**: Score-CAM has been merged into [PaddlePaddle/InterpretDL](https://github.com/PaddlePaddle/InterpretDL).
