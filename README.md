@@ -23,12 +23,12 @@ Demo [Colab](https://colab.research.google.com/drive/1m1VAhKaO7Jns5qt5igfd7lSVZu
 ## Citation
 If you find this work or code is helpful in your research, please cite and star:
 ```
-@InProceedings{Wang_2020_CVPR_Workshops,
-    author = {Wang, Haofan and Wang, Zifan and Du, Mengnan and Yang, Fan and Zhang, Zijian and Ding, Sirui and Mardziel, Piotr and Hu, Xia},
-    title = {Score-CAM: Score-Weighted Visual Explanations for Convolutional Neural Networks},
-    booktitle = {The IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR) Workshops},
-    month = {June},
-    year = {2020}
+@inproceedings{wang2020score,
+  title={Score-CAM: Score-weighted visual explanations for convolutional neural networks},
+  author={Wang, Haofan and Wang, Zifan and Du, Mengnan and Yang, Fan and Zhang, Zijian and Ding, Sirui and Mardziel, Piotr and Hu, Xia},
+  booktitle={Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition Workshops},
+  pages={24--25},
+  year={2020}
 }
 ```
 
