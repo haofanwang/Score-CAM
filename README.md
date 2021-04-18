@@ -11,13 +11,15 @@ Demo [Colab](https://colab.research.google.com/drive/1m1VAhKaO7Jns5qt5igfd7lSVZu
 
 ## Update
 
-**`2020.8.18`**: Score-CAM has been merged into [PaddlePaddle/InterpretDL](https://github.com/PaddlePaddle/InterpretDL).
+**`2021.4.03`**: Score-CAM has been merged into [jacobgil/pytorch-grad-cam](https://github.com/jacobgil/pytorch-grad-cam) (2.1K Stars).
 
-**`2020.7.11`**: Score-CAM has been merged into [keisen/tf-keras-vis](https://github.com/keisen/tf-keras-vis).
+**`2020.8.18`**: Score-CAM has been merged into [PaddlePaddle/InterpretDL](https://github.com/PaddlePaddle/InterpretDL), a toolkit for PaddlePaddle models.
 
-**`2020.5.11`**: Score-CAM has been merged into [utkuozbulak/pytorch-cnn-visualizations](https://github.com/utkuozbulak/pytorch-cnn-visualizations).
+**`2020.7.11`**: Score-CAM has been merged into [keisen/tf-keras-vis](https://github.com/keisen/tf-keras-vis), written in Tensorflow.
 
-**`2020.3.24`**: Score-CAM has been merged into [frgfm/torch-cam](https://github.com/frgfm/torch-cam).
+**`2020.5.11`**: Score-CAM has been merged into [utkuozbulak/pytorch-cnn-visualizations](https://github.com/utkuozbulak/pytorch-cnn-visualizations) (5.5K Stars).
+
+**`2020.3.24`**: Score-CAM has been merged into [frgfm/torch-cam](https://github.com/frgfm/torch-cam), a nice library that supports multiple CAM-based methods.
 
 
 ## Citation
