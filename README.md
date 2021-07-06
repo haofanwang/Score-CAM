@@ -1,11 +1,10 @@
 ## Score-CAM: Score-Weighted Visual Explanations for Convolutional Neural Networks
-To appear at IEEE [CVPR 2020 Workshop on Fair, Data Efficient and Trusted Computer Vision](https://fadetrcv.github.io).
+
+We develop a novel post-hoc visual explanation method called Score-CAM based on class activation mapping. Score-CAM is the first gradient-free CAM-based visualization method that achieves better visual performance (**state-of-the-art**). 
 
 <img src="https://github.com/haofanwang/Score-CAM/blob/master/pics/comparison.png" width="100%" height="100%">
 
-In this paper, we develop a novel post-hoc visual explanation method called Score-CAM based on class activation mapping. Score-CAM is a gradient-free visualization method, extended from Grad-CAM and Grad-CAM++. It achieves better visual performance (state-of-the-art) and fairness for interpreting the decision making process. 
-
-Paper: [Score-CAM: Score-Weighted Visual Explanations for Convolutional Neural Networks](http://openaccess.thecvf.com/content_CVPRW_2020/papers/w1/Wang_Score-CAM_Score-Weighted_Visual_Explanations_for_Convolutional_Neural_Networks_CVPRW_2020_paper.pdf)
+Paper: [Score-CAM: Score-Weighted Visual Explanations for Convolutional Neural Networks](http://openaccess.thecvf.com/content_CVPRW_2020/papers/w1/Wang_Score-CAM_Score-Weighted_Visual_Explanations_for_Convolutional_Neural_Networks_CVPRW_2020_paper.pdf), appeared at IEEE [CVPR 2020 Workshop on Fair, Data Efficient and Trusted Computer Vision](https://fadetrcv.github.io). Our paper has been cited nearly **100**!
 
 Demo: You can run an example via [Colab](https://colab.research.google.com/drive/1m1VAhKaO7Jns5qt5igfd7lSVZudoKmID?usp=sharing)
 
