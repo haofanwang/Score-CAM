@@ -1,6 +1,6 @@
 ## Score-CAM: Score-Weighted Visual Explanations for Convolutional Neural Networks
 
-We develop a novel post-hoc visual explanation method called Score-CAM based on class activation mapping. Score-CAM is the first gradient-free CAM-based visualization method that achieves better visual performance (**state-of-the-art**). 
+We develop a novel post-hoc visual explanation method called Score-CAM, which is the first gradient-free CAM-based visualization method that achieves better visual performance (**state-of-the-art**). 
 
 <img src="https://github.com/haofanwang/Score-CAM/blob/master/pics/comparison.png" width="100%" height="100%">
 
