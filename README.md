@@ -10,13 +10,15 @@ Demo: You can run an example via [Colab](https://colab.research.google.com/drive
 
 ## Update
 
-**`2021.4.03`**: Merged into [jacobgil/pytorch-grad-cam](https://github.com/jacobgil/pytorch-grad-cam) (2.8K Stars).
+**`2021.12.16`**: A great MATLAB implementation from [Kenta Itakura](https://github.com/KentaItakura/Explainable-AI-interpreting-the-classification-using-score-CAM).
 
-**`2020.8.18`**: Merged into [PaddlePaddle/InterpretDL](https://github.com/PaddlePaddle/InterpretDL), a toolkit for PaddlePaddle models.
+**`2021.4.03`**: A Pytorch implementation [jacobgil/pytorch-grad-cam](https://github.com/jacobgil/pytorch-grad-cam) (3.8K Stars).
 
-**`2020.7.11`**: Merged into [keisen/tf-keras-vis](https://github.com/keisen/tf-keras-vis), written in Tensorflow.
+**`2020.8.18`**: A PaddlePaddle implementation from [PaddlePaddle/InterpretDL](https://github.com/PaddlePaddle/InterpretDL).
 
-**`2020.5.11`**: Merged into [utkuozbulak/pytorch-cnn-visualizations](https://github.com/utkuozbulak/pytorch-cnn-visualizations) (5.7K Stars).
+**`2020.7.11`**: A Tensorflow implementation from [keisen/tf-keras-vis](https://github.com/keisen/tf-keras-vis).
+
+**`2020.5.11`**: A Pytorch implementation from [utkuozbulak/pytorch-cnn-visualizations](https://github.com/utkuozbulak/pytorch-cnn-visualizations) (6.2K Stars).
 
 **`2020.3.24`**: Merged into [frgfm/torch-cam](https://github.com/frgfm/torch-cam), a wonderful library that supports multiple CAM-based methods.
 
